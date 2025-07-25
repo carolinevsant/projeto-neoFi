@@ -1,0 +1,287 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+    background: 0;
+    list-style: none;
+    text-decoration: none;
+
+    color: #E5E5E5;
+
+ font-family: "Roboto", sans-serif;
+}
+html{
+    background-color: black;
+   
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 80px;
+    width: 100%;
+
+}
+.home-white{
+    color: white;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+.logo > p{
+    font-size: 22px;
+}
+
+
+ul{
+    display: flex;
+    gap: 40px;
+    
+    font-size: 16px;
+}
+
+li,a{
+    color: #999999;
+}
+.btn{
+    display: flex;
+    align-items: center ;
+
+    width: 240px;
+    height: 40px;
+    gap: 16px;
+    
+}
+.btn > .green{
+    background-color: #9DFF3A ;
+    color: rgb(0, 0, 0);
+    
+    font-size: 16px;
+    height: 40px;
+    border-radius: 40px;
+    width: 141px;
+
+
+}
+.btn > .white{
+     font-size: 16px;
+     width: 141px;
+      height: 40px;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+
+    height: 632px;
+    width: 100%;
+
+}
+.esquerda{
+    flex-direction: column;
+    width: 568px;
+    height: 345px;
+}
+.paragrafo-border{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 137px;
+    height: 37px;
+    
+
+    background: 
+    linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)) padding-box, 
+    linear-gradient(80deg, #4d4d4d, #b3b3b3) border-box;
+    border-radius: 50px;
+    border: 1px solid transparent;
+
+
+    color: #9DFF3A;
+}
+
+.esquerda > h1{
+    font-size: 64px;
+     padding-top: 20px;
+}
+.esquerda > p{
+    font-size: 30p;
+}
+.paragrafo-two{
+    font-size: 20px;
+    color:#999999 ;
+
+    padding-top: 20px;
+}
+.btnTwo{
+    display: flex;
+    width: 361px;
+    height: 52px;
+    padding-top: 20px;
+
+    gap: 20px;
+}
+
+.green-two{
+    width: 151px;
+    height: 51px;
+
+    background-color: #9DFF3A;
+
+
+    border-radius: 40px;
+    font-size: 18px;
+}
+.green-two>a{
+
+    color: black;
+}
+.btn-border{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 151px;
+    height: 51px;
+    font-size: 18px;
+
+    
+    background: 
+    linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)) padding-box, 
+    linear-gradient(80deg, #4d4d4d, #b3b3b3) border-box;
+    border-radius: 50px;
+    border: 1px solid transparent;
+
+}
+
+.section-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 172px;
+    gap: 40px;
+    
+    background-color: #0F0F0F;
+}
+.section-one >p{
+    font-size: 16px;
+    color: #999999;
+}
+.logos{
+    display: flex;
+    gap: 50px;
+}
+
+.Future-Breakdown{
+    display: flex;
+    flex-direction: column;
+    height: 623px;
+    width: 100%;
+    margin-top: 60px;
+
+}
+.future-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 179px;
+    
+
+
+
+    gap: 20px;
+}
+.btn-future {
+    width: 100px;
+    height: 41px;
+    border: 2px solid #2E2E2E;
+    border-radius: 24px;
+}
+.btn-future, a{
+    color: #9DFF3A;
+}
+.future-one > h2{
+    font-size: 48px;
+    font-family: "Roboto", sans-serif;
+}
+.future-one > p{
+    color: #999999;
+}
+
+.cards{
+    display: flex;align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 653px;
+    gap: 20px;
+    border-radius: 12px;
+    text-align: center;
+    
+
+
+}
+.card1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 48px;
+    width: 490px;
+    height: 244px;
+
+    background-color: #0F0F0F;
+    border: 1px solid gray;
+    
+    border-radius: 12px;
+   
+}
+.card1 > p{
+     font-size: 18px;
+}
+.card2{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 48px;
+    width: 490px;
+    height: 244px;
+
+    background-color: #0F0F0F;
+    border: 1px solid gray;
+    border-radius: 12px;
+}
+.card2 > p{
+     font-size: 18px;
+}
+.card3{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 48px;
+    width: 490px;
+    height: 244px;
+
+    background-color: #0F0F0F;
+    border: 1px solid gray;
+    border-radius: 12px;
+}
+.card3 > p{
+     font-size: 18px;
+}
