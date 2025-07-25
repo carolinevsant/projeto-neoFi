@@ -25,7 +25,7 @@ Este projeto foi desenvolvido em sala de aula como parte das atividades de intro
 
 ## 🙋‍♀️ Desenvolvido por
 
-- feito por: Ana Caroline Santibanez 
+ Ana Caroline Santibanez 
 - Turma: dev-front
 - Professor: Correa / Alvarez
 
