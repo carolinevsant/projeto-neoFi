@@ -1,4 +1,4 @@
-# 🌐 Projeto: Meu Primeiro Site com HTML e CSS
+# 🌐 Projeto: Site com HTML e CSS
 
 Este projeto foi desenvolvido em sala de aula como parte das atividades de introdução ao desenvolvimento web. O objetivo foi criar uma página web simples utilizando apenas HTML e CSS, aprendendo sobre estrutura, estilização e boas práticas.
 
